@@ -1,1 +1,1 @@
-# GDG
+# JD-SCRIPTS
