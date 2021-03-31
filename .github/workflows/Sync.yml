@@ -39,7 +39,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         directory: master
-        github_token: ${{ secrets.PAT }}
+        github_token: ${{ secrets.SYNC }}
         branch: master
 
     - name: Delete Workflow Runs
