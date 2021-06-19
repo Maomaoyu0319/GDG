@@ -29,8 +29,8 @@ jobs:
         if: env.PAT
         with:
 
-          source_repo: "https://github.com/RikudouPatrickstar/jd_scripts.git"
-          source_branch: "master"
+          source_repo: "https://github.com/The-backup/ForSCF.git"
+          source_branch: "main"
           destination_branch: "master"
           github_token: ${{ secrets.PAT }}
       
